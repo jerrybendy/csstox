@@ -1,6 +1,7 @@
 import postcss from "postcss";
 import postcssJs from "postcss-js";
 import transform from "css-to-react-native";
+import json5 from "json5";
 
 const toJSSObject = (cssText) => {
   const root = postcss.parse(cssText);
@@ -22,7 +23,10 @@ export const toRN = (cssText) => {
     const transformResult = transformFontFamily(transform(result));
     console.log(transformResult);
 
-    return JSON.stringify(transformResult, null, 2);
+    return json5.stringify(transformResult, {
+      space: 2,
+      quote: '"',
+    });
   } catch (e) {
     return "Error translating CSS to RN";
   }
