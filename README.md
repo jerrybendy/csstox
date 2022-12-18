@@ -6,7 +6,7 @@
 
 ## Demo
 
-Please try it out [here](https://csstox.surge.sh/)
+Please try it out [here](https://csstox.byi.pw/)
 
 ## Behind the hoods
 

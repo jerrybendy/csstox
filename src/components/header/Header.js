@@ -24,12 +24,9 @@ const Header = () => {
             Easily convert CSS text to {outputType} stylesheet objects.
           </p>
           <p>
-            &copy; 2020{" "}
-            <a
-              href="https://github.com/jamesgeorge007"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            &copy; 2022 &nbsp; <a href="https://github.com/jerrybendy" target="_blank">Jerry Bendy</a>
+            &nbsp;&nbsp;
+            Forked from <a href="https://github.com/jamesgeorge007" target="_blank" rel="noopener noreferrer">
               {" "}
               James George{" "}
             </a>
